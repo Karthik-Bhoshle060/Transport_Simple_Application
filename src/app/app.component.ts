@@ -41,7 +41,6 @@ export class AppComponent {
 
   // Called when the form is submitted
   addTrip(): void {
-    // Ignore if fields are empty or invalid (optional additional check)
     this.trip.start = this.trip.start.toUpperCase();
     this.trip.end = this.trip.end.toUpperCase();
     if (this.trip.start.trim() && this.trip.end.trim()) {

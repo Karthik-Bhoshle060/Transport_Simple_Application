@@ -2,7 +2,6 @@ h1,
 h3 {
   text-align: center;
 }
-/* trip-form.component.css */
 .trip-form {
   display: flex;
   flex-direction: column;
@@ -49,7 +48,7 @@ h3 {
   }
   .line-with-arrow {
     display: flex;
-    // align-items: center;
+
     &.level-2 {
       margin-top: -50px;
     }
@@ -59,7 +58,6 @@ h3 {
       border-top: 6px solid transparent;
       border-bottom: 6px solid transparent;
       border-left: 10px solid var(--arrow-color, black);
-      // margin-left: 5px;
     }
     .line {
       width: 90px;
@@ -126,18 +124,11 @@ h3 {
         background: red;
         margin: 0px auto 5px auto;
       }
-      //   hr {
-      //     border: 0;
-      //     border-top: 2px solid #000;
-      //     width: 50px;
-      //     margin: 5px 0px 0px 0px;
-      //   }
     }
 
     .label {
       font-size: 10px;
       font-size: 10px;
-      /* margin-right: auto; */
       justify-content: flex-end;
       display: flex;
     }
