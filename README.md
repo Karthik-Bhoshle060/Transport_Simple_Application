@@ -17,10 +17,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     not in sequence and might represent a round trip or alternate routes.
 
 ##Consecutive Trip Location Matching:
-  - If consecutive trips have the same pickup and drop location (for example, if the second trip picks up from the same location and drops off at the same location as the previous one), those trips will be 
-    displayed on Level 2. This visually groups such trips together.
+  - If consecutive trips have the same pickup and drop location (for example, if the second trip picks up from the same location and drops off at the same location 
+    as the previous one), those trips will be displayed on Level 2. This visually groups such trips together.
+## Sample Output
 
-- 
+![Trip Output](./Transport Project Output.PNG)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
