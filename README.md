@@ -19,9 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ##Consecutive Trip Location Matching:
   - If consecutive trips have the same pickup and drop location (for example, if the second trip picks up from the same location and drops off at the same location 
     as the previous one), those trips will be displayed on Level 2. This visually groups such trips together.
-## Sample Output
 
-![Trip Output](./Transport Project Output.PNG)
 
 ## Development server
 
